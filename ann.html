@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       rel="shortcut icon"
-      href="/images/logo.jpg"
+      href="/images/ann-logo.png"
       type="image/x-icon"
     />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Music&display=swap" rel="stylesheet">
@@ -18,7 +18,8 @@
 <body>
     <nav class="navbar">
         <div class="logo">ANNY.</div>
-        <ul class="nav-links">
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Resume</a></li>
@@ -31,10 +32,10 @@
             <h1>Hi,<br> I'm <span>Antoinette.</span><br>a Frontend Developer!</h1>
             <p>With experience in creating and managing beautiful, responsive and<br>user-friendly websites. My skills include
             coding in HTML, CSS, and JavaScript.</p>
-            <button id="btn">CONTACT ME</button>
+            <button id="button">CONTACT ME</button>
             </div>
             <div class="home-img">
-                <img src="/images/Profile.png">
+                <img src="/images/Profile.png" alt="Profile Image">
             </div>
         </div>
     <hr>
@@ -67,50 +68,46 @@
             <div class="box">
                 <img class="img" src="/images/pay-me-app.png">
                 <div class="content">
-                    <h1>PROJECT WEBSITE <br> <span>HTML &nbsp; CSS &nbsp; JavaScript</span></h1>
+                    <h1>PAY ME PROJECT WEBSITE</h1>
                 </div>
             </div>
 
             <div class="box">
                 <img class="img" src="/images/Buka clone.png">
                 <div class="content">
-                    <h1> RESTAURANT WEBSITE <br> <span>HTML &nbsp; CSS &nbsp; JavaScript</span></h1>
+                    <h1> CLONED BUKA RESTAURANT WEBSITE </h1>
                 </div>
             </div>
 
             <div class="box">
                 <img class="img" src="/images/restaurant.png">
                 <div class="content">
-                    <h1>RESTAURANT WEBSITE<br> <span>HTML &nbsp; CSS &nbsp; JavaScript</span></h1>
+                <h1>CREATED A WEBSITE WITH GRID</h1>
                 </div>
             </div>
 
             <div class="box">
                 <img class="img" src="/images/ExpresssPay.png">
                 <div class="content">
-                    <h1>FINTECH WEBSITE<br> <span>HTML &nbsp; CSS &nbsp; JavaScript</span></h1>
+                    <h1>CLONED EXPRESS FINTECH WEBSITE</h1>
                 </div>
             </div>
 
             <div class="box">
                 <img class="img" src="/images/View.png">
                 <div class="content">
-                    <h1>REAL ESTATE  WEBSITE<br> <span>HTML &nbsp; CSS &nbsp; JavaScript</span></h1>
+                    <h1>REAL ESTATE  WEBSITE</h1>
                 </div>
             </div>
               <div class="box">
                 <img class="img" src="/images/Radiolize Clone.png">
                 <div class="content">
-                    <h1>NEWS WEBSITE <br> <span>HTML &nbsp; CSS &nbsp; JavaScript</span></h1>
+                    <h1>CLONED REDIOLIZE WEBSITE</span></h1>
                 </div>
-            </div>
-
-           
+            </div>    
         </div>
     </div> 
-
     <hr>
-
     <div class="contact">
         <div class="wraper">
                 <div class="content">
@@ -125,8 +122,6 @@
                     <i class="fa-brands fa-facebook"></i>
                 </div>
                </div>
-        
-            
                 <div class="content">
                     <form>
                         <input type="text" id="text" placeholder="NAME"><br>
@@ -139,10 +134,10 @@
          
             <footer>
                 <p> <b>ANNY</b>©2024 Copyright All Rights Reserved</p>
-                <p>Designed with <i class="fa-solid fa-heart"></i>as a Vephla's task</p>
+                <p>Designed with <i class="fa-solid fa-heart"></i> as a Vephla Project</p>
             </footer>
        </div>
-     
+     <script src="script.js"></script>
 </body>
 </html> 
 
